@@ -2,15 +2,19 @@
 
 对于学习Java漏洞代码来说，`Java Sec Code`是一个非常强大且友好的项目。
 
-[英文文档](https://github.com/JoyChou93/java-sec-code/blob/master/README.md)
+原作者老哥写的没问题，就是网络问题会导致不能用，我就自行修改了一下，我就拉我这里自己改着玩吧
+
+我自己fork过来，修复一下，后续会自己做实验，修改一些东西
+
+[原文地址](https://github.com/JoyChou93/java-sec-code/)
+
+他的docker 和在线dome 现在都不能登陆了，过段时间可能可以？
 
 ## 介绍
 
 该项目也可以叫做Java Vulnerability Code(Java漏洞代码)。
 
 每个漏洞类型代码默认存在安全漏洞（除非本身不存在漏洞），相关修复代码在注释里。具体可查看每个漏洞代码和注释。
-
-[在线Demo](http://118.25.15.216:8080)
 
 登录用户名密码：
 
@@ -79,27 +83,6 @@ spring.datasource.password=woshishujukumima
 - IDEA
 - Tomcat
 - JAR
-
-### Docker
-
-开启应用：
-
-``` 
-docker-compose pull
-docker-compose up
-```
-
-关闭应用：
-
-```
-docker-compose down
-```
-
-Docker环境：
-
-- Java 1.8.0_102
-- Mysql 8.0.17
-- Tomcat 8.5.11
 
 ### IDEA
 
@@ -181,16 +164,3 @@ joychou/joychou123
 Tomcat默认JSESSION会话有效时间为30分钟，所以30分钟不操作会话将过期。为了解决这一问题，引入rememberMe功能，默认过期时间为2周。
 
 
-## 贡献者
-
-核心开发者： [JoyChou](https://github.com/JoyChou93).其他开发者：[lightless](https://github.com/lightless233),  [Anemone95](https://github.com/Anemone95)。欢迎各位提交PR。
-
-## 捐赠
-
-如果你喜欢这个项目，你可以捐款来支持我。 有了你的支持，我将能够更好地制作`Java sec code`项目。
-
-### Alipay
-
-扫描支付宝二维码支持`Java sec code`。
-
-<img title="Alipay QRcode" src="https://aliyun-testaaa.oss-cn-shanghai.aliyuncs.com/alipay_qr.png" width="200">
